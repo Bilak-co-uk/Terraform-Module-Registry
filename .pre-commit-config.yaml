@@ -1,0 +1,15 @@
+repos:
+  - repo: https://github.com/antonbabenko/pre-commit-terraform
+    rev: v1.98.0 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
+    hooks:
+      - id: terraform_fmt
+      - id: terraform_docs
+      - id: terraform_tflint
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0 # Use the ref you want to point at
+    hooks:
+      - id: trailing-whitespace
+  - repo: https://github.com/Imperial-ICT-Cloud-TerraformRegistry/git-hooks
+    rev: 0.0.1
+    hooks:
+      - id: add-readme
