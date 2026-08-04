@@ -5,6 +5,8 @@ org_name = "Bilak"
 
 # MODULES
 modules = [
+  "Bilak-Terraform-Modules/terraform-azuread-application",
+  "Bilak-Terraform-Modules/terraform-azuread-app-role-assignment",
   "Bilak-Terraform-Modules/terraform-azuread-group",
   "Bilak-Terraform-Modules/terraform-azurerm-aks",
   "Bilak-Terraform-Modules/terraform-azurerm-api-mgmt",
@@ -33,7 +35,7 @@ modules = [
   "Bilak-Terraform-Modules/terraform-azurerm-firewall",
   "Bilak-Terraform-Modules/terraform-azurerm-function-app-flex-consumption",
   "Bilak-Terraform-Modules/terraform-azurerm-ip-group",
-  "Bilak-Terraform-Modules/terraform-azurerm-key-vault-key",          # Deprecated
+  "Bilak-Terraform-Modules/terraform-azurerm-key-vault-key", # Deprecated
   "Bilak-Terraform-Modules/terraform-azurerm-keyvault",
   "Bilak-Terraform-Modules/terraform-azurerm-keyvault-access-policy", # Deprecated
   "Bilak-Terraform-Modules/terraform-azurerm-keyvault-secret",        # Deprecated
@@ -67,6 +69,7 @@ modules = [
   "Bilak-Terraform-Modules/terraform-azurerm-static-web-app",
   "Bilak-Terraform-Modules/terraform-azurerm-storage-account",
   "Bilak-Terraform-Modules/terraform-azurerm-synapse-workspace",
+  "Bilak-Terraform-Modules/terraform-azurerm-tags",
   "Bilak-Terraform-Modules/terraform-azurerm-user-assigned-identity",
   "Bilak-Terraform-Modules/terraform-azurerm-virtual-desktop",
   "Bilak-Terraform-Modules/terraform-azurerm-virtual-machine-linux",
